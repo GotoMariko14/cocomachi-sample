@@ -44,6 +44,14 @@ footer{background:#ffdc35;color:#263238;padding:60px 0 25px;border-top:5px solid
 
 .hero:before{background:linear-gradient(90deg,rgba(15,32,38,.38),rgba(15,32,38,.16) 58%,rgba(15,32,38,.03))}
 @media(max-width:680px){.hero:before{background:linear-gradient(90deg,rgba(15,32,38,.42),rgba(15,32,38,.18))}}
+
+/* Shopping map directly below the first view */
+.hero-map{position:relative;padding:48px 0 56px;background:#fffdf0;border-bottom:8px solid #ffda29}
+.hero-map-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}
+.hero-map-head h2{font-size:43px;line-height:1.2;margin:6px 0 0;font-weight:900}
+.hero-map-link{font-size:18px;font-weight:900;color:#c63d18;border-bottom:3px solid #f05a28;padding-bottom:5px}
+.hero-map img{width:min(980px,100%);height:auto;margin:auto;object-fit:contain;border:3px solid #f0d96a;background:#fff}
+@media(max-width:680px){.hero-map{padding:38px 0 42px;border-bottom-width:5px}.hero-map-head{align-items:flex-start}.hero-map-head h2{font-size:35px}.hero-map-link{font-size:15px}.hero-map img{border-width:2px}}
 </style>
 </head>
 <body>
@@ -57,6 +65,9 @@ footer{background:#ffdc35;color:#263238;padding:60px 0 25px;border-top:5px solid
 <section class="hero" style="padding:0">
 <img src="images/slide02.jpg" alt="岐阜駅前の風景">
 <div class="wrap hero-inner"><div class="eyebrow">GIFU EKIMAE CENTRAL SHOPPING STREET</div><h1>駅前から、<br>まちの楽しさが<br>はじまる。</h1><p>いつもの毎日にも、はじめての出会いにも。<br>岐阜駅前中央商店街「ココマチ」へようこそ。</p><div class="hero-bottom"><a class="btn" href="#about">ココマチを知る <span>→</span></a><span class="hero-note">人とお店がつながる、岐阜のまんなか。</span></div></div><div class="hero-scroll">SCROLL</div>
+</section>
+<section class="hero-map" id="map" style="padding-left:0;padding-right:0">
+<div class="wrap"><div class="hero-map-head"><div><div class="section-kicker">SHOPPING MAP</div><h2>商店街マップ</h2></div><a class="hero-map-link" href="images/cocomap_01.jpg" target="_blank" rel="noopener">拡大して見る →</a></div><img src="images/cocomap_01.jpg" alt="岐阜駅前中央商店街 ココマチ ココマップ"></div>
 </section>
 <div class="quick"><div class="wrap quick-grid">
 <a href="#marche"><span class="qicon">✳</span><span><strong>神田町マルシェ</strong><small>KANDA-MACHI MARCHE</small></span><span class="arrow">↗</span></a>
